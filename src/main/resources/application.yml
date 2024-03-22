@@ -1,0 +1,11 @@
+environment: test
+server:
+  port: 4000
+---
+environment: prod
+server:
+  port: 7070
+---
+environment: default
+server:
+  port: 5000
